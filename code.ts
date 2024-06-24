@@ -52,7 +52,7 @@ async function processCollection({
         (await figma.variables.getVariableByIdAsync(variableId)) as Variable;
       const value = valuesByMode[mode.modeId];
 
-      if (value !== undefined && ["COLOR", "FLOAT"].includes(resolvedType)) {
+      if (value !== undefined && ["COLOR", "FLOAT", "STRING", "BOOLEAN"].includes(resolvedType)) {
         let obj = file.body;
 
         name.split("/").forEach((groupName) => {
