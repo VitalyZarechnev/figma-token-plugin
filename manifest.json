@@ -13,7 +13,10 @@
   "ui": "ui.html",
   "networkAccess": {
     "allowedDomains": [
-      "none"
-    ]
+      "https://www.figma.com"
+    ],
+	"devAllowedDomains": [
+		"*"
+	]
   }
 }
