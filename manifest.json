@@ -3,11 +3,12 @@
   "id": "1373246834887664713",
   "api": "1.0.0",
   "main": "code.js",
-  "capabilities": [],
+  "capabilities": ["inspect", "vscode"],
   "enableProposedApi": false,
   "documentAccess": "dynamic-page",
   "editorType": [
-    "figma"
+    "figma",
+	"dev"
   ],
   "ui": "ui.html",
   "networkAccess": {
